@@ -242,7 +242,7 @@ int fazerCompra(int stock[], int produtoPreco[], int *preco)
 
 void apresentacaoCaixa(int moedas[])
 {
-	printf("\n\nCaixa:");
+	printf("\nCaixa:");
 	printf("\nKz 10,00\t Kz 5,00\t Kz 2,00\t Kz 1,00\t Kz 0,50\t Kz 0,25\t kz0,10 \tkz0,05");
 	printf("\n  %d\t\t%d\t\t%d\t\t%d\t\t%d\t\t%d\t\t%d\t\t%d\n",
 		   moedas[0], moedas[1], moedas[2], moedas[3], moedas[4], moedas[5], moedas[6], moedas[7]);
@@ -250,7 +250,7 @@ void apresentacaoCaixa(int moedas[])
 
 void apresentacaoStock(int stock[])
 {
-	printf("\n\nStock:");
+	printf("\nStock:");
 	printf("\nCoca-cola\t Pura\t Toblerone\t Maria\n");
 	printf("\n %d\t%d\t%d\t%d\n", stock[0], stock[1], stock[2], stock[3]);
 	printf("\n\nPreco em Centavos:");
